@@ -7,7 +7,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className='mb-4'>Congrats! You won PS5</h1>
+        <h1 >Congrats! You won PS5</h1>
+        <p className='mb-4'>Please enter your sensitive data to claim your reward!</p>
         <Form>
           <Form.Group>
             <Form.Label>Name</Form.Label>
@@ -24,7 +25,7 @@ function App() {
           <Form.Group>
             <Form.Label controlId='formPassword'> Credit Card Password</Form.Label>
             <Form.Control type='password' placeholder='password'></Form.Control>
-            <Form.Text>We'll never share your email address, "wink, wink"</Form.Text>
+            <Form.Text>We'll never share your information, "wink, wink"</Form.Text>
           </Form.Group>
           <Button variant='danger' type='submit'>Claim Your PS5</Button>
         </Form>
